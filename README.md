@@ -15,8 +15,8 @@ Ensure you have the following installed before running the script:
 Clone this repository and run the script as follows:
 
 ```bash
-sudo chmod +x deploy-jenkins.sh
-./deploy-jenkins.sh [jenkins_name] [port]
+sudo chmod +x ./jenkins-helm.sh
+./jenkins-helm.sh [jenkins_name] [port]
 ```
 
 ### Parameters:
@@ -26,7 +26,7 @@ sudo chmod +x deploy-jenkins.sh
 ### Example:
 
 ```bash
-./deploy-jenkins.sh my-jenkins 8090
+./jenkins-helm.sh my-jenkins 8090
 ```
 
 This will deploy Jenkins under the release name `my-jenkins` and expose it on port `8090`.
